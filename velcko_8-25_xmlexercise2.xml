@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <heading><title type="selection">Leaves</title>
+        <author>Lloyd Schwartz</author> - <adob>1941</adob><!-- tjv: <adob> stands for author date of birth -->- </heading>
+    <stanza>
+        <sec>1</sec>
+        <line>Every <month>October</month> it becomes important, no, <emp>necessary</emp></line>
+        <line>to see the <rep n="1.1">leaves turning</rep>, to be surrounded</line>
+        <line>by <rep n="1.2">leaves turning</rep>; it's not just the symbolism,</line>
+        <line>to confront in the death of the year your death,</line>
+        <line>one blazing farewell appearance, though the irony </line>
+        <line>isn't lost on you that <lit type="pers">nature is most seductive</lit></line>
+        <line>when it's about to die, flaunting the dazzle of its </line>
+        <line>incipient exit, an ending that at least so far </line>
+        <line>the effects of human progress (pollution, acid rain)</line>
+        <line>have not yet frightened you enough to make you believe</line>
+        <line>is real; that is, you know this ending is a deception</line>
+        <line>because of course <lit type="pers">nature is always renewing itself</lit>—</line>
+        <ind>
+            <line>the trees don't <emp>die</emp>, <lit type="pers"><aka they="trees">they</aka> just
+                    pretend</lit>,</line>
+            <line>go out in <rep n="2.1">style</rep>, and return in <rep n="2.2">style</rep>: a new
+                    <rep n="2.3">style</rep>.</line>
+        </ind>
+    </stanza>
+    <stanza>
+        <sec>2</sec>
+        <line>Is it deliberate how far they make you
+            go<!-- tjv: would the "they" be refering to the trees, or humans, I wonder? --></line>
+        <line>especially if you live in the city to get far </line>
+        <line>enough away from home to see not just trees </line>
+        <line>but only trees? The boring highways, roadsigns, high </line>
+        <line>speeds, 10-axle trucks passing you as if they were </line>
+        <line>in an even greater hurry than you to look at leaves:</line>
+        <line>so you drive in terror for literal hours and it looks </line>
+        <line>like rain, or <emp>snow</emp>, but it's probably just clouds</line>
+        <line>(too cloudy to see any color?) and you wonder, </line>
+        <line>given the poverty of your memory, which road had the </line>
+        <line>most color last year, but it doesn't matter since </line>
+        <line>you're probably too late anyway, or too early—</line>
+        <ind>
+            <line>whichever road you take will be the wrong one</line>
+            <line>and you've probably come all this way for nothing.</line>
+        </ind>
+    </stanza>
+    <stanza>
+        <sec>3</sec>
+        <line>You'll be driving along depressed when suddenly</line>
+        <line>a cloud will move and the <lit type="pers">sun will muscle through</lit></line>
+        <line>and ignite the hills. It may not <rep n="3.1">last</rep>. Probably</line>
+        <line>won't <rep n="3.2">last</rep>. But for a moment the whole world</line>
+        <line>comes to. Wakes up. Proves <rep n="4.1">it lives</rep>. <rep n="4.2">It
+            lives</rep>—</line>
+        <line><emp>red</emp>, <emp>yellow</emp>, <emp>orange</emp>, <emp>brown</emp>,
+                <emp>russet</emp>, <emp>ocher</emp>, <emp>vermilion</emp>,</line>
+        <line><emp>gold</emp>. <rep n="5.1">Flame and rust</rep>. <rep n="5.2">Flame and rust</rep>,
+            the permutations</line>
+        <line>of burning. You're <rep n="6.1">on fire</rep>. Your eyes are <rep n="6.2">on
+                fire</rep>.</line>
+        <line>It won't <rep n="3.3">last</rep>, you don't want it to <rep n="3.4">last</rep>. You </line>
+        <line>can't stand any more. But you don't want it to stop. </line>
+        <line>It's what you've <rep n="7.1">come for</rep>. It's what you'll</line>
+        <line><rep n="7.2">come back for</rep>. It won't stay with you, but you'll </line>
+        <ind>
+            <line>remember that it <rep n="8.1">felt</rep> like nothing else you've <rep n="8.2"
+                    >felt</rep></line>
+            <line>or something you've <rep n="8.3">felt</rep> that also didn't <rep n="3.5"
+                    >last</rep>.</line>
+        </ind>
+    </stanza>
+    <cite>Copyright © <date>1992</date> by <author>Lloyd Schwartz</author>. From <title
+            type="collection">Goodnight, Gracie</title> (The University of Chicago Press, 1992).
+        Appears courtesy of the author.</cite>
+</root>

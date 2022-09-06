@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- tjv 9/1/22: I realized that I didn't include any meta data the first time around, so I fixed that this time. -->
+    <!-- the element "rec" stands for reconcile. -->
+    <note
+        source="https://web.archive.org/web/20200221141740/https://edu.lva.virginia.gov/online_classroom/shaping_the_constitution/doc/ballad"
+        >Hughes references Booker T. Washington's 1895 speech at the Cotton States and International
+        Exposition in lines 5 and 6 of the poem. The famous speech was interpreted by white
+        Americans to support racial segregation, however, Washington was supporting cooperation as a
+        necessity of the times. He did not support segregation, but understood that nothing could be
+        changed at the present time. Hughes wrote this poem as a means of reconciling "the
+        reputation of Booker T. Washington as collaborator with white racists with the time period
+        and place". These instances are notated in the poem using the element <rec/></note>
+    <poemInfo>"Ballad of Booker T.," by Langston Hughes, June 1, 1941</poemInfo>
+    <heading>
+        <title>BALLAD OF BOOKER T.</title>
+        <sepLine>by</sepLine>
+        <author>Langston Hughes</author>
+    </heading>
+    <note>A red inked, circular stamp is featured near lines 6-10. It shows an eagle with wings
+        spread, an olive branch clutched in the left talons and spears clutched in the right, with
+        its beak, holding a long ribbon, turned to the left, and the words "The Library of Congress"
+        form the border.</note>
+    <poem>
+        <sentence>
+            <l n="1">Booker T.</l>
+            <l n="2">Was a <rec>practical</rec> man.</l>
+        </sentence>
+        <sentence>
+            <l n="3">He said, Till the soil</l>
+            <l n="4">And learn from the land.</l>
+        </sentence>
+        <sentence>
+            <rec>
+                <l n="5">Let down your bucket</l>
+                <l n="6">Where you are.</l>
+            </rec>
+        </sentence>
+        <sentence>
+            <l n="7">Your fate is here</l>
+            <l n="8">And not afar.</l>
+        </sentence>
+        <sentence>
+            <l n="9">To help yourself</l>
+            <l n="10">And your fellow man,</l>
+            <l n="11">Train your head,</l>
+            <l n="12">Your heart, <emp type="underline">and</emp>
+                <emp type="underline">your</emp>
+                <emp type="underline">hand</emp>.</l>
+        </sentence>
+        <sentence>
+            <l n="13">For smartness alone's</l>
+            <l n="14">Surely not meet<note writ="handwritten">—</note></l>
+            <l n="15">If you haven't at the same time</l>
+            <l n="16">Got something to eat.</l>
+        </sentence>
+        <sentence>
+            <l n="17">Thus at Tuskegee</l>
+            <l n="18">He built a school</l>
+            <l n="19">With book-learning there</l>
+            <l n="20">And the workman's tool.</l>
+        </sentence>
+        <sentence>
+            <l n="21">He started out</l>
+            <l n="22">In a simple way<note writ="handwritten">—</note></l>
+            <rec>
+                <l n="23">For yesterday</l>
+                <l n="24">Was <emp type="underline">not</emp> today.</l>
+            </rec>
+        </sentence>
+        <sentence>
+            <l n="25">Sometimes he had</l>
+            <rec>
+                <l n="26">Compromise in his talk<note writ="handwritten">—</note></l>
+            </rec>
+            <l n="27">For a man must crawl</l>
+            <l n="28">Before he can walk<note writ="handwritten">—</note></l>
+            <rec>
+                <l n="29">And in Alabama in '85</l>
+                <l n="30">A joker was lucky</l>
+                <l n="31">To be alive.</l>
+            </rec>
+        </sentence>
+        <sentence>
+            <l n="32">But Booker T.</l>
+            <l n="33">Was nobody's fool:</l>
+            <l n="34">You may carve a dream</l>
+            <l n="35">With an humble tool.</l>
+        </sentence>
+        <sentence>
+            <l n="36">The tallest tower</l>
+            <l n="37">Can tumble down</l>
+            <l n="38">If it be not rooted</l>
+            <l n="39">In solid ground.</l>
+        </sentence>
+        <sentence>
+            <l n="40">So, being a far-seeing </l>
+            <l n="41">Practical man,</l>
+            <l n="42">He said, Train your head,</l>
+            <l n="43">Your heart, <emp type="underline">and</emp>
+                <emp type="underline">your</emp>
+                <emp type="underline">hand</emp>.</l>
+        </sentence>
+        <sentence>
+            <l n="44">Your fate is here</l>
+            <l n="45">And not afar,</l>
+            <l n="46">So let down your bucket</l>
+            <l n="47">Where you are.</l>
+        </sentence>
+    </poem>
+    <endInfo>
+        <note>Langston Hughes' signature is hand signed and overlaps the endInfo.</note>
+        <sig>LANGSTON HUGHES</sig>
+        <para>Final Draft,</para>
+        <para>Hollow Hills Farm,</para>
+        <para>Monterey, California,</para>
+        <para>June 1, 1941.</para>
+    </endInfo>
+</root>
