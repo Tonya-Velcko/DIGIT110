@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="velcko_relaxNGExercise2.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <lyrics>
+        <head>
+            <title>Don't Let the Light Go Out</title>
+            <musician>Panic at the Disco</musician>
+            <album>Viva Las Vengence</album>
+            <date when="release"><month when="August"/>
+                <day n="16"/>, <year n="2022"/></date>
+        </head>
+        <body>
+            <verse n="1">
+                <l n="1">Stare at a wall that's told a thousand tragedies</l>
+                <l n="2">Holding a hand that's loved every part of me</l>
+                <l n="3">A lady comes and tells me that I've got to leave</l>
+                <l n="4">Right away everybody is the enemy</l>
+            </verse>
+            <verse n="2">
+                <l n="5">Deep breaths from the room where I watch you lie</l>
+                <l n="6">Any beat from your heart gets me through the night</l>
+                <l n="7">You're my love, you're my death, you're my alibi</l>
+                <l n="8">Say this isn't good bye</l>
+            </verse>
+            <chorus>
+                <l n="9">Who's gonna drive me home tonight?</l>
+                <l n="10">Who's gonna argue 'til they win the fight?</l>
+                <l n="11">You're the only one that knows how to operate</l>
+                <l n="12">My heavy machinery</l>
+            </chorus>
+            <refrain>
+                <l n="13">Don't let the light go out</l>
+                <l n="14">Don't let the light go out</l>
+                <l n="15">Don't let the light go out</l>
+                <l n="16">Don't let the light go out</l>
+            </refrain>
+            <verse n="3">
+                <l n="17">A rush of blood floods hot thoughts in my head</l>
+                <l n="18">Red roses sitting silently beside the bed</l>
+                <l n="19">I'm saying more right now than I ever said</l>
+                <l n="20">Don't wanna live if the thought of loving you is dead</l>
+            </verse>
+            <chorus>
+                <l n="21">Who's gonna drive me home tonight?</l>
+                <l n="22">Who's gonna argue 'til they win the fight?</l>
+                <l n="23">You're the only one that knows how to operate</l>
+                <l n="24">My heavy machinery, so</l>
+                <l n="25">Who's gonna drive me home tonight?</l>
+                <l n="26">Who's gonna argue 'til they win the fight?</l>
+                <l n="27">You're the only one that knows how to operate</l>
+                <l n="28">My heavy machinery</l>
+            </chorus>
+            <refrain>
+                <l n="29">Don't let the light go out</l>
+                <l n="30">Don't let the light go out</l>
+                <l n="31">Don't let the light go out</l>
+                <l n="32">Don't let the light go out</l>
+            </refrain>
+            <guitarSolo/>
+            <chorus>
+                <l n="33">Who's gonna drive me home tonight?</l>
+                <l n="34">Who's gonna argue 'til they win the fight?</l>
+                <l n="35">You're the only one that knows how to operate</l>
+                <l n="36">My heavy machinery, so</l>
+                <l n="37">Who's gonna drive me home tonight?</l>
+                <l n="38">Who's gonna argue 'til they win the fight?</l>
+                <l n="39">You're the only one that knows how to operate</l>
+                <l n="40">My heavy machinery</l>
+            </chorus>
+            <refrain>
+                <l n="41">Don't let the light go out</l>
+                <l n="42">Don't let the light go out</l>
+                <l n="43">Don't let the light go out</l>
+                <l n="44">Don't let the light go out</l>
+            </refrain>
+        </body>
+    </lyrics>
+
+    <bibl>
+        <lyricSource href="https://open.spotify.com/lyrics"/>
+        <credit site="spotify.com">
+            <title>Don't Let The Light Go Out</title>
+            <p>Performed by</p>
+            <musician>Panic! At The Disco</musician>
+            <p>Written by</p>
+            <lyricists>Jake Sinclair, Brendon Urie, Butch Walker, Janis Ian, Mike Viola</lyricists>
+            <p>Produced by</p>
+            <producers>Brendon Urie, Jake Sinclair, Mike Viola</producers>
+            <sourceLine>Source: Fueled By Ramen, Hipgnosis Songs Fund (fka Big Deal Music
+                Group)</sourceLine>
+        </credit>
+    </bibl>
+</song>
