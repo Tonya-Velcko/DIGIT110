@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="velcko_GingersnapsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- tjv:I'm not sure if I did the item references right, but I tried my best. -->
+<xml>
+    <title>Gingersnaps</title>
+    <break/>
+    <desc>These <adj>crunchy</adj>, <adj>spicy</adj> rounds with their <adj>cracked</adj>,
+            <adj>sugary</adj> tops are equally at home dunked in <drink>tea</drink>,
+            <drink>coffee</drink>, or <drink>milk</drink>, and frequently enjoyed during the
+            <month>November</month>/<month>December</month> holiday season. But they're just as
+        welcome on a <adj>mellow</adj>, <adj>golden</adj>, <month>late-September</month> afternoon,
+        with a <adj>comfortable</adj> lounge chair and a <adj>large</adj> glass of
+            <adj>fresh-squeezed</adj>
+        <drink>lemonade</drink>.</desc>
+    <time which="prep">12 mins</time>
+    <time which="bake">11 to 13 mins</time>
+    <time which="total">23 mins</time>
+    <yield>about <amount n="60">5 dozen</amount>cookies</yield>
+    <break/>
+    <ingredients>
+        <list for="cookies">
+            <item n="1"><amount also="138" u="g">3/4 cup</amount>vegetable shortening<sub
+                    for="vegetable shortening">butter results in soft, not crisp,
+                cookies</sub></item>
+            <item n="2"><amount also="198" u="g">1 cup</amount>granulated sugar</item>
+            <item n="3"><amount>1/2 teaspoon</amount>salt</item>
+            <item n="4"><amount>2 teaspoons</amount>baking soda</item>
+            <item n="5"><amount>1 large</amount>egg</item>
+            <item n="6"><amount also="113" u="g">1/3 cup</amount>molasses</item>
+            <item n="7"><amount also="280" u="g">2 1/3 cups</amount>King Arthur Unbleached
+                All-Purpose Flour</item>
+            <item n="8"><amount>1 to 2 teaspoons</amount>ginger</item>
+            <item n="9"><amount>1/2 teaspoon</amount>cloves</item>
+            <item n="10"><amount>1 teaspoon</amount>cinnamon</item>
+        </list>
+        <list for="coating">
+            <item n="11"><amount also="50" u="g">1/4cup</amount> granulated sugar</item>
+            <item n="12"><amount>1teaspoon</amount> cinnamon</item>
+        </list>
+    </ingredients>
+    <break/>
+    <instructions>
+        <title>Instructions</title>
+        <list for="instructions">
+            <step n="1">Preheat the oven to 375°F.</step>
+            <step n="2">Lightly grease <alt>or line with parchment</alt>two baking sheets.</step>
+            <step n="3">Beat together the <itemRef ref="(item n=1)">shortening</itemRef>, <itemRef
+                    ref="(item n=2)">sugar</itemRef>, <itemRef ref="(item n=3)">salt</itemRef>, and
+                    <itemRef ref="(item n=4)">baking soda</itemRef>.</step>
+            <step n="4">Beat in the <itemRef ref="(item n=5)">egg</itemRef>, then the <itemRef
+                    ref="(item n=6)">molasses</itemRef>.</step>
+            <step n="5">Add the <itemRef ref="(item n=7)">flour</itemRef> and <itemRef
+                    ref="(items n=8-10)">spices</itemRef>, beating to make a smooth, fairly stiff
+                dough.</step>
+            <step n="6">To make the coating, combine the <itemRef ref="(item n=11)">sugar</itemRef>
+                and <itemRef ref="(item n=12)">cinnamon</itemRef>, and place in a shallow pan or
+                dish.</step>
+            <step n="7">Drop the dough in 1" balls into the cinnamon-sugar mixture; a teaspoon
+                cookie scoop is perfect here.</step>
+            <step n="8">Roll the balls in the sugar to coat, then transfer them to the prepared
+                baking sheets, leaving at least 1 1/2" between them; they'll spread as they
+                bake.</step>
+            <step n="9.1">Bake the cookies for 11 minutes, for cookies that are crisp around the
+                edges, and "bendy" in the center.</step>
+            <step n="9.2">Bake for 13 minutes, for cookies that are crisp/crunchy all the way
+                through.</step>
+            <step n="10">Remove the cookies from the oven, and cool right on the pan, or on a
+                rack.</step>
+            <step n="11">Cool completely, then store tightly wrapped, at room temperature.</step>
+        </list>
+    </instructions>
+</xml>
