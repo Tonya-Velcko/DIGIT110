@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="velcko_GingersnapsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- tjv:I'm not sure if I did the item references right, but I tried my best. -->
+<!-- tjv:Update-I made the schema more precise and used xsd:ID and xsd:IDREF(S) instead of the previous itemRef-ref system. I also reworked the amount attributes. -->
+<xml>
+    <title>Gingersnaps</title>
+    <break/>
+    <desc>These <adj>crunchy</adj>, <adj>spicy</adj> rounds with their <adj>cracked</adj>,
+            <adj>sugary</adj> tops are equally at home dunked in <drink>tea</drink>,
+            <drink>coffee</drink>, or <drink>milk</drink>, and frequently enjoyed during the
+            <month>November</month>/<month>December</month> holiday season. But they're just as
+        welcome on a <adj>mellow</adj>, <adj>golden</adj>, <month>late-September</month> afternoon,
+        with a <adj>comfortable</adj> lounge chair and a <adj>large</adj> glass of
+            <adj>fresh-squeezed</adj>
+        <drink>lemonade</drink>.</desc>
+    <time which="prep" t="12">12 mins</time>
+    <time which="bake" t="11 13">11 to 13 mins</time>
+    <time which="total" t="23">23 mins</time>
+    <yield>about <amount n="60">5 dozen</amount>cookies</yield>
+    <break/>
+    <ingredients>
+        <list for="cookies">
+            <item n="1"><amount n="0.75" u="cup" also="138 g">3/4 cup</amount><ing ingType="vs"
+                    >vegetable shortening</ing><sub sFor="vs">butter results in soft, not crisp,
+                    cookies</sub></item>
+            <item n="2"><amount n="1" u="cup" also="198 g">1 cup</amount><ing ingType="gSug"
+                    >granulated sugar</ing></item>
+            <item n="3"><amount n="0.5" u="tsp">1/2 teaspoon</amount><ing ingType="salt"
+                >salt</ing></item>
+            <item n="4"><amount n="2" u="tsp">2 teaspoons</amount><ing ingType="bSoda">baking
+                    soda</ing></item>
+            <item n="5"><amount n="1">1 large</amount><ing ingType="egg">egg</ing></item>
+            <item n="6"><amount n="0.33" u="cup" also="113 g">1/3 cup</amount><ing ingType="mol"
+                    >molasses</ing></item>
+            <item n="7"><amount n="2.33" u="cup" also="280 g">2 1/3 cups</amount><ing
+                    ingType="flour">King Arthur Unbleached All-Purpose Flour</ing></item>
+            <item n="8"><amount n="1 2" u="tsp">1 to 2 teaspoons</amount><ing ingType="ging"
+                    >ginger</ing></item>
+            <item n="9"><amount n="0.5" u="tsp">1/2 teaspoon</amount><ing ingType="cloves"
+                    >cloves</ing></item>
+            <item n="10"><amount n="1" u="tsp">1 teaspoon</amount><ing ingType="cinn"
+                >cinnamon</ing></item>
+        </list>
+        <list for="coating">
+            <item n="11"><amount n="0.25" u="cup" also="50 g">1/4cup</amount>
+                <ing ingrType="gSug">granulated sugar</ing></item>
+            <item n="12"><amount n="1" u="tsp">1teaspoon</amount>
+                <ing ingrType="cinn">cinnamon</ing></item>
+        </list>
+    </ingredients>
+    <break/>
+    <instructions>
+        <title>Instructions</title>
+        <list for="instructions">
+            <step n="1">Preheat the oven to 375°F.</step>
+            <step n="2">Lightly grease <alt>or line with parchment</alt>two baking sheets.</step>
+            <step n="3">Beat together the <ing ingrType="vs gSug salt bSoda">shortening, sugar,
+                    salt, and baking soda</ing>.</step>
+            <step n="4">Beat in the <ing ingrType="egg">egg</ing>, then the <ing ingrType="mol"
+                    >molasses</ing>.</step>
+            <step n="5">Add the <ing ingrType="flour">flour</ing> and <ing
+                    ingrType="ging cloves cinn">spices</ing>, beating to make a smooth, fairly stiff
+                dough.</step>
+            <step n="6">To make the coating, combine the <ing ingrType="gSug cinn">sugar and
+                    cinnamon</ing>, and place in a shallow pan or dish.</step>
+            <step n="7">Drop the dough in 1" balls into the cinnamon-sugar mixture; a teaspoon
+                cookie scoop is perfect here.</step>
+            <step n="8">Roll the balls in the sugar to coat, then transfer them to the prepared
+                baking sheets, leaving at least 1 1/2" between them; they'll spread as they
+                bake.</step>
+            <step n="9.1">Bake the cookies for 11 minutes, for cookies that are crisp around the
+                edges, and "bendy" in the center.</step>
+            <step n="9.2">Bake for 13 minutes, for cookies that are crisp/crunchy all the way
+                through.</step>
+            <step n="10">Remove the cookies from the oven, and cool right on the pan, or on a
+                rack.</step>
+            <step n="11">Cool completely, then store tightly wrapped, at room temperature.</step>
+        </list>
+    </instructions>
+</xml>
