@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="velcko_GingersnapsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
 <!-- tjv:I'm not sure if I did the item references right, but I tried my best. -->
+<<<<<<< HEAD
 <!-- tjv:Update-I made the schema more precise and used xsd:ID and xsd:IDREF(S) instead of the previous itemRef-ref system. I also reworked the amount attributes. -->
+=======
+>>>>>>> 2f139b6f990ee6b5295e662d4bab88ddbbd7fc5d
 <xml>
     <title>Gingersnaps</title>
     <break/>
@@ -13,13 +16,20 @@
         with a <adj>comfortable</adj> lounge chair and a <adj>large</adj> glass of
             <adj>fresh-squeezed</adj>
         <drink>lemonade</drink>.</desc>
+<<<<<<< HEAD
     <time which="prep" t="12">12 mins</time>
     <time which="bake" t="11 13">11 to 13 mins</time>
     <time which="total" t="23">23 mins</time>
+=======
+    <time which="prep">12 mins</time>
+    <time which="bake">11 to 13 mins</time>
+    <time which="total">23 mins</time>
+>>>>>>> 2f139b6f990ee6b5295e662d4bab88ddbbd7fc5d
     <yield>about <amount n="60">5 dozen</amount>cookies</yield>
     <break/>
     <ingredients>
         <list for="cookies">
+<<<<<<< HEAD
             <item n="1"><amount n="0.75" u="cup" also="138 g">3/4 cup</amount><ing ingType="vs"
                     >vegetable shortening</ing><sub sFor="vs">butter results in soft, not crisp,
                     cookies</sub></item>
@@ -46,6 +56,25 @@
                 <ing ingrType="gSug">granulated sugar</ing></item>
             <item n="12"><amount n="1" u="tsp">1teaspoon</amount>
                 <ing ingrType="cinn">cinnamon</ing></item>
+=======
+            <item n="1"><amount also="138" u="g">3/4 cup</amount>vegetable shortening<sub
+                    for="vegetable shortening">butter results in soft, not crisp,
+                cookies</sub></item>
+            <item n="2"><amount also="198" u="g">1 cup</amount>granulated sugar</item>
+            <item n="3"><amount>1/2 teaspoon</amount>salt</item>
+            <item n="4"><amount>2 teaspoons</amount>baking soda</item>
+            <item n="5"><amount>1 large</amount>egg</item>
+            <item n="6"><amount also="113" u="g">1/3 cup</amount>molasses</item>
+            <item n="7"><amount also="280" u="g">2 1/3 cups</amount>King Arthur Unbleached
+                All-Purpose Flour</item>
+            <item n="8"><amount>1 to 2 teaspoons</amount>ginger</item>
+            <item n="9"><amount>1/2 teaspoon</amount>cloves</item>
+            <item n="10"><amount>1 teaspoon</amount>cinnamon</item>
+        </list>
+        <list for="coating">
+            <item n="11"><amount also="50" u="g">1/4cup</amount> granulated sugar</item>
+            <item n="12"><amount>1teaspoon</amount> cinnamon</item>
+>>>>>>> 2f139b6f990ee6b5295e662d4bab88ddbbd7fc5d
         </list>
     </ingredients>
     <break/>
@@ -54,6 +83,7 @@
         <list for="instructions">
             <step n="1">Preheat the oven to 375°F.</step>
             <step n="2">Lightly grease <alt>or line with parchment</alt>two baking sheets.</step>
+<<<<<<< HEAD
             <step n="3">Beat together the <ing ingrType="vs gSug salt bSoda">shortening, sugar,
                     salt, and baking soda</ing>.</step>
             <step n="4">Beat in the <ing ingrType="egg">egg</ing>, then the <ing ingrType="mol"
@@ -63,6 +93,19 @@
                 dough.</step>
             <step n="6">To make the coating, combine the <ing ingrType="gSug cinn">sugar and
                     cinnamon</ing>, and place in a shallow pan or dish.</step>
+=======
+            <step n="3">Beat together the <itemRef ref="(item n=1)">shortening</itemRef>, <itemRef
+                    ref="(item n=2)">sugar</itemRef>, <itemRef ref="(item n=3)">salt</itemRef>, and
+                    <itemRef ref="(item n=4)">baking soda</itemRef>.</step>
+            <step n="4">Beat in the <itemRef ref="(item n=5)">egg</itemRef>, then the <itemRef
+                    ref="(item n=6)">molasses</itemRef>.</step>
+            <step n="5">Add the <itemRef ref="(item n=7)">flour</itemRef> and <itemRef
+                    ref="(items n=8-10)">spices</itemRef>, beating to make a smooth, fairly stiff
+                dough.</step>
+            <step n="6">To make the coating, combine the <itemRef ref="(item n=11)">sugar</itemRef>
+                and <itemRef ref="(item n=12)">cinnamon</itemRef>, and place in a shallow pan or
+                dish.</step>
+>>>>>>> 2f139b6f990ee6b5295e662d4bab88ddbbd7fc5d
             <step n="7">Drop the dough in 1" balls into the cinnamon-sugar mixture; a teaspoon
                 cookie scoop is perfect here.</step>
             <step n="8">Roll the balls in the sugar to coat, then transfer them to the prepared

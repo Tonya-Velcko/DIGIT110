@@ -6,6 +6,7 @@ desc=element desc{mixed{(adj*,drink*,month*)*}}
 adj=element adj{text}
 drink=element drink{text}
 month=element month{"November"|"December"|"late-September"}
+<<<<<<< HEAD
 time=element time{which,t,text}
 which=attribute which{"prep"|"bake"|"total"}
 t=attribute t{list{xsd:integer,xsd:integer*}}
@@ -26,3 +27,22 @@ sFor=attribute sFor{xsd:IDREF}
 instructions=element instructions{title,\list}
 step=element step{mixed{n,alt?,ing*}}
 alt=element alt{text}
+=======
+time=element time{which,text}
+which=attribute which{"prep"|"bake"|"total"}
+yield=element yield{text,amount,text}
+amount=element amount{(n|(also,u))?,text}
+n=attribute n{xsd:integer|xsd:decimal}
+also=attribute also{xsd:integer}
+u=attribute u{"g"}
+ingredients=element ingredients{\list+}
+\list=element list{for,(item+|step+)}
+for=attribute for{"cookies"|"vegetable shortening"|"coating"|"instructions"}
+item=element item{mixed{n,amount,sub?}}
+sub=element sub{for,text}
+instructions=element instructions{title,\list}
+step=element step{mixed{n,alt?,itemRef*}}
+alt=element alt{text}
+itemRef=element itemRef{ref*,text}
+ref=attribute ref{xsd:string}
+>>>>>>> 2f139b6f990ee6b5295e662d4bab88ddbbd7fc5d
