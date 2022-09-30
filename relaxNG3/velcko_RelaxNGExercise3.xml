@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="velcko_RelaxNGExercise3.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <head>
+        <title>Salt</title>
+        <artist>Ava Max</artist>
+    </head>
+    <lyrics>
+        <verse n="1">
+            <l n="1">Oh-oh, I got <note nType="saying">breaking news</note></l>
+            <l n="2">And it's <note nType="plot">not about you</note>, oh-oh</l>
+            <l n="3">Oh-oh, I've been <note nType="saying">breaking hearts</note> too</l>
+            <l n="4">And I <note nType="plot">learned it all from you</note>, oh-oh</l>
+        </verse>
+        <preChorus>
+            <l n="5">I got my <note nType="aka">thigh-highs</note> on, feel like <note
+                    nType="popCulRef">Wonder Woman</note></l>
+            <l n="6">That's when you want all in, but I'm not your woman</l>
+            <l n="7">When my lipstick pops and I feel like <note nType="popCulRef">Monroe</note></l>
+            <l n="8">That's when you want me most, oh-oh</l>
+        </preChorus>
+        <chorus>
+            <l n="9">I'm all out of <note nType="saying plot">salt, I'm not gonna cry</note></l>
+            <l n="10"><note nType="plot">Won't give you what you want</note></l>
+            <l n="11">'Cause I <note nType="plot">look way too good</note> tonight</l>
+            <l n="12">I'm all out of salt, <note nType="saying">tears are running dry</note></l>
+            <l n="13">Won't give you what you want</l>
+            <l n="14">'Cause I look way too good tonight</l>
+        </chorus>
+        <postChorus>
+            <l n="15">Oh-oh-oh-oh-oh</l>
+            <l n="16">Oh-oh-oh-oh-oh</l>
+            <l n="17">I'm all out of salt</l>
+            <l n="18">Oh-oh-oh-oh-oh</l>
+            <l n="19">Oh-oh-oh-oh-oh</l>
+            <l n="20">I'm all out of salt</l>
+        </postChorus>
+        <verse n="2">
+            <l n="21">Oh-oh, when I'm 'bout to celebrate</l>
+            <l n="22"><note nType="saying plot">Push my head into the cake, no more</note></l>
+            <l n="23">Oh-oh, you're the <note nType="saying plot">snake pulling my arm</note></l>
+            <l n="24">Like my <note nType="plot popCulRef">snakeskin Saint Laurent</note>, oh-oh</l>
+        </verse>
+        <preChorus>
+            <l n="25">I got my thigh-highs on, feel like Wonder Woman</l>
+            <l n="26">That's when you want all in, but I'm not your woman</l>
+            <l n="27">When my lipstick pops and I feel like Monroe</l>
+            <l n="28">That's when you want me most, oh-oh</l>
+        </preChorus>
+        <chorus>
+            <l n="29">I'm all out of salt, I'm not gonna cry</l>
+            <l n="30">Won't give you what you want</l>
+            <l n="31">'Cause I look way too good tonight</l>
+            <l n="32">I'm all out of salt, tears are running dry</l>
+            <l n="33">Won't give you what you want</l>
+            <l n="34">'Cause I look way too good tonight</l>
+        </chorus>
+        <postChorus>
+            <l n="35">Oh-oh-oh-oh-oh</l>
+            <l n="36">Oh-oh-oh-oh-oh</l>
+            <l n="37">I'm all out of salt</l>
+            <l n="38">Oh-oh-oh-oh-oh</l>
+            <l n="39">Oh-oh-oh-oh-oh</l>
+            <l n="40">I'm all out of salt</l>
+        </postChorus>
+        <bridge>
+            <l n="41">Not gonna cry, cry, cry</l>
+            <l n="42">Not gonna cry, cry, cry</l>
+            <l n="43">Not gonna cry, cry, cry</l>
+        </bridge>
+        <chorus>
+            <l n="44">I'm all out of salt, I'm not gonna cry (Oh)</l>
+            <l n="45">Won't give you what you want</l>
+            <l n="46">'Cause I look way too good tonight</l>
+            <l n="47">I'm all out of salt, tears are running dry</l>
+            <l n="48">Won't give you what you want</l>
+            <l n="49">'Cause I look way too good tonight</l>
+        </chorus>
+        <postChorus>
+            <l n="50">Oh-oh-oh-oh-oh</l>
+            <l n="51">Oh-oh-oh-oh-oh</l>
+            <l n="52">I'm all out of salt</l>
+            <l n="53">Oh-oh-oh-oh-oh</l>
+            <l n="54">Oh-oh-oh-oh-oh</l>
+            <l n="55">Oh, I'm all out of salt</l>
+        </postChorus>
+    </lyrics>
+    <notes>
+        <saying><ref line="1">"breaking news" is the same phrase used in journalism when covering a
+                story for the first time, when usually the story has either just occurred, or is
+                ongoing.</ref>
+            <ref line="3"> The phrase "breaking hearts" refers to the idea of a broken heart, or
+                breaking someone's heart. Merriam-Webster defines "breaking someone's heart" as
+                making someone feel "great sorrow or sadness".</ref>
+            <ref line="9">This line is building off of various sayings such as "no tears left to
+                cry" or "all out of tears", etc. Instead of saying this though, the main character
+                claims they are "all out of salt". Tears are considered "salty" because they are a
+                mixture of water and salt ions. One can argue that the use of the word salt to
+                represent their tears is a synecdoche.</ref>
+            <ref line="12">This line is reiterating the fact that they are no longer crying over
+                their ex.</ref>
+            <ref line="22"
+                href="https://shootingstarsouthjersey.com/2015/10/05/history-of-the-cake-smash/">The
+                act of pushing one's head into a cake in this context could refer to either the
+                birthday tradition or the wedding tradition. In Mexico, a child's parents will push
+                their face into their first birthday cake as a way to get the child to have their
+                first "bite". During the wedding reception, after the cake cutting, the bride and
+                groom have the option to feed pieces of cake to each other nicely, or smash cake
+                into the other's face. Both instances are now commonly considered mean spirited,
+                which is why the song's main character uses it to refer to their ex and perhaps,
+                events in their
+                relationship.<!--tjv:the href is one of the few sites that I found that explained both traditions well. Other, more reputable (arguably) sites explained one or the other but not with enough details. This is why I chose this particular website. --></ref>
+            <ref line="23">The main character compares their ex to a snake, in reference to the ex's
+                nature, and "pulling my arm" to signify that the ex is an unwelcome weight dragging
+                them down.</ref>
+        </saying>
+        <plot>
+            <ref line="2">The main character is talking to her ex throughout the song, explaining
+                how they are moving on from the relationship. In the previous line, they mention
+                "breaking news" then in this line explain that it's "not about [the ex]", suggesting
+                that, for the first time, they are doing something that is for themself, instead of
+                trying to get over the ex</ref>
+            <ref line="4">In the previous line, they state that they are "breaking hearts too". In
+                this line they claim that they "learned it all" from their ex, both implying that
+                the ex broke their heart and revealing how long they have been over the
+                relationship: long enough to break multiple hearts.</ref>
+            <ref line="9">As covered partly in the "saying" portion of the notes, they are letting
+                their ex know that they are no longer crying over them because they have nothing
+                left to cry over.</ref>
+            <ref line="10">In line 9, they say they're not going to cry. Line 10 clarifies that they
+                will not cry because that is exactly what their ex wants. They want the main
+                character to be sad because they are gone, but that is not going to happen.</ref>
+            <ref line="11">Additionally, they will not cry because they "look way too good" to do
+                so. In line 7 they mention that they are wearing lipstick, so it is assumed that
+                they have more makeup on as well. Crying would ruin the makeup, which plays a role
+                in them looking good.</ref>
+            <ref line="22">After referencing being pushed into a cake, they say "no more". This is
+                the character saying they will not let anyone ruin their celebrations and happiness,
+                especially not their ex.</ref>
+            <ref line="23 24">In these two lines, the character compares their "snake" ex to their
+                snakeskin purse. The snakeskin's presence on the purse requires the snake to be,
+                firstly,dead, and secondly, no longer a threat. This means that their ex is as
+                relevant to them as the snakeskin on their purse: dead, and no longer a
+                problem.</ref>
+        </plot>
+        <popCulRef>
+            <ref line="5">Wonder Woman is a popular DC superhero. In the same line, the main
+                character references thigh-high boots, which Wonder Woman famously wears.</ref>
+            <ref line="7">This refers to Marilyn Monroe, an actress from the 1950s and 60s known for
+                her beauty.</ref>
+            <ref line="24">Saint Laurent is a fashion company that makes, among many other things,
+                purses.</ref>
+        </popCulRef>
+        <aka>
+            <ref line="5">"thigh-highs" refer to a boot that covers from foot to mid-thigh or
+                higher.</ref>
+        </aka>
+    </notes>
+    <bibl>
+        <lyricsSource href="https://genius.com/Ava-max-salt-lyrics"/>
+        <credit>
+            <title>Salt</title>
+            <artist>Ava Max</artist>
+            <writBy>
+                <person>Autumn Rowe</person>
+                <person>Henry Walter</person>
+                <person who="Ava Max">Amanda Ava Koci</person>
+                <person>Madison Love</person>
+                <person>Nicole Morier</person>
+            </writBy>
+            <producers>
+                <co>Cirkut</co>
+            </producers>
+            <copyRight>
+                <co>Atlantic Records</co>
+                <co>Kobalt Music Publishing</co>
+                <co>Sony Music Publishing</co>
+            </copyRight>
+        </credit>
+    </bibl>
+</song>
